@@ -1,0 +1,53 @@
+/* Сброс стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Стили для заголовка */
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* Стили для основного содержимого */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+/* Стили для подвала */
+footer {
+  background-color: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 600px) {
+  header,
+  main,
+  footer {
+    padding: 1rem;
+  }
+}
